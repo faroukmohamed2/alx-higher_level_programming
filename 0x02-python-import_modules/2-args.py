@@ -10,6 +10,6 @@ if __name__ == "__main__":
     elif count == 1:
         print("{} argument".format(count))
     else:
-        print("{} arguments:".format(len(argv)))
-    for i in range(1, count):
-        print("{}: {}".format(count, sys.argv[i]))
+        print("{} arguments:".format(count))
+    for i in range(0, count):
+        print("{}: {}".format(i, sys.argv[i + 1]))
