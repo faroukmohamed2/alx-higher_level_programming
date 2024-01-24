@@ -12,4 +12,3 @@ if __name__ == "__main__":
         print("0 arguments.")
     for i in range(1, count + 1):  
         print("{}: {}".format(i, sys.argv[i]))
-    print()
