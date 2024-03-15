@@ -8,7 +8,6 @@ if __name__ == "__main__":
         print("0 arguments.")
     elif size == 1:
         print("1 argument:")
-        print("1: " + sys.argv[0])
     else:
         print("{} arguments".format(size))
     for i in range(size):
