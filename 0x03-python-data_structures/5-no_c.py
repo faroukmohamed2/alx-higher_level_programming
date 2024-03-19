@@ -1,4 +1,4 @@
-#!/usr/bin/pythonn3
+#!/usr/bin/python3
 def no_c(my_string):
     """retrun a copy without c or C"""
     new_string = [x for x in my_string if x != 'c' or x != 'C']
